@@ -109,7 +109,7 @@ function couleursFonction(tabValBool) {
             toutesLesQuestions[j].classList.add('echec');
 
             setTimeout(() => {
-                toutesLesQuestions[j].classList.remove('echec');
+                toutesLesQuestions[j].classList.toggle('echec');
             }, 500)
         }
         
